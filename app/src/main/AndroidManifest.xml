@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HaithemCamelBuySellApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".seller.ViewStats"
+            android:exported="false" />
+        <activity
+            android:name=".seller.ViewStatistics"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.MakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyBeauty"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyMeat"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyCamel"
+            android:exported="false" />
+        <activity
+            android:name=".seller.DeleteBeauty"
+            android:exported="false" />
+        <activity
+            android:name=".seller.DeleteMeat"
+            android:exported="false" />
+        <activity
+            android:name=".seller.DeleteCamel"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateBeautyOpen"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateMeatOpen"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateCamelOpen"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateBeauty"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateMeat"
+            android:exported="false" />
+        <activity
+            android:name=".seller.UpdateCamel"
+            android:exported="false" />
+        <activity
+            android:name=".seller.AddBeauty"
+            android:exported="false" />
+        <activity
+            android:name=".seller.AddMeat"
+            android:exported="false" />
+        <activity
+            android:name=".seller.AddCamel"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.AddFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerUpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.Cart"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerUpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".seller.ViewFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerSelectCategory2"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerSelectCategory1"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerSelectCategory"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerSelectCategory"
+            android:exported="false" />
+        <activity
+            android:name=".seller.ForgetPassword1"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".UserType"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerHome"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".seller.SellerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerHome"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".buyer.BuyerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032511730701",
+    "project_id": "haithem-camelbuysellapp",
+    "storage_bucket": "haithem-camelbuysellapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032511730701:android:92361d6b5922e47e20d144",
+        "android_client_info": {
+          "package_name": "com.example.haithem_camelbuysellapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgTPE50wfrxHxa_oB_6eWc4a6ajEn9TgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
